@@ -3,6 +3,7 @@ layout: post
 title: 'Conky从豆瓣获取MPD专辑封面'
 date: 2011-10-3
 wordpress_id: 255
+dq_id: '255 http://bigeagle.me/?p=255'
 comments: true
 ---
 昨天回到Openbox了，GNOME3.2扩展不兼容让我这个不搞定不舒服司机的人实在太难受，又不想再去学gjs，所以干脆眼不见为净了。

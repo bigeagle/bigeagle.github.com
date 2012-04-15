@@ -3,6 +3,7 @@ layout: post
 title: 'Linux 用作 IPv6 网关'
 date: 2011-11-25
 wordpress_id: 295
+dq_id: '295 http://bigeagle.me/?p=295'
 permalink: /2011/11/linux_as_ipv6_gateway/
 comments: true
 catigories: Linux

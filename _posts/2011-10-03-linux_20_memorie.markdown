@@ -3,6 +3,7 @@ layout: post
 title: '我和Linus大学时那些事儿'
 date: 2011-10-3
 wordpress_id: 278
+dq_id: '278 http://bigeagle.me/?p=278'
 comments: true
 ---
 原作 Lars Wirzenius，地址 [http://liw.fi/linux20/](http://liw.fi/linux20/)
