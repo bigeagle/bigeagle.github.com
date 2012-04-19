@@ -12,7 +12,8 @@ categories:
 
 **比花生壳强大多啦！！！！**
 <!--more-->
-{% codeblock lang:python %}
+
+```python
 #!/usr/bin/env python2
 # -*- coding:utf8 -*-
 
@@ -189,8 +190,7 @@ if __name__ == '__main__':
             print e
             pass
         time.sleep(interval)
-{% endcodeblock %}
-
+```
 
 以后可能会常更新，新的代码会放在 [github](https://gist.github.com/833369) 上。
 

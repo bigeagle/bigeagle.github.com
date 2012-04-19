@@ -13,12 +13,12 @@ gnome-shell的overview模式着实是个尤物，动态工作区和任务管理�
 
 考虑到速度瓶颈主要是磁盘读取 <span style="color: #666699;">/* 对MBA的SSD表示羡慕嫉妒恨 */ </span>，想到如果能预先把Applications里的内容缓存到内存里就好了，Applications里其实是加载了/usr/share/applications里的文件，于是想到了把/usr/share/applications 挂载为 tmpfs 。 <span style="color: #666699;">//总共不过[0-9]M的文件，这点内存咱还是有的 </span>
 
-{% codeblock lang:bash %}
+```bash
 mkdir -p /tmp/app_temp
 cp -aR /usr/share/applications/* /tmp/app_temp #先把文件备份出来
 mount -t tmpfs none /usr/share/applications
 cp -aR /tmp/app_temp/* /usr/share/applications
-{% endcodeblock %}
+```
 
 现在试试，速度是不是快多了？
 

@@ -3,7 +3,6 @@ layout: post
 title: '纪念钱立生老师'
 date: 2010-12-26
 wordpress_id: 85
-permalink: /blogs/85
 comments: true
 ---
 在与病魔斗争两年后，先师钱立生先生于今日中午在家乡病逝。
@@ -23,4 +22,4 @@ comments: true
 
 故人已去，愿天下老师，身体健康，智慧长存。
 
-<a href="http://bigeagle.me/wp-content/uploads/2010/12/qianlisheng.jpg"><img class="aligncenter size-medium wp-image-86 shadow" title="钱老师是左边的男老师" src="http://bigeagle.me/wp-content/uploads/2010/12/qianlisheng-300x233.jpg" alt="" width="300" height="233" /></a>
+{% img center /images/posts/qianlisheng.jpg %}

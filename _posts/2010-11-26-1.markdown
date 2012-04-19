@@ -3,7 +3,7 @@ layout: post
 title: 'Hello world！'
 date: 2010-11-26
 wordpress_id: 1
-permalink: /2010/11/hello_world
+permalink: /2010/11/hello-world
 comments: true
 ---
 ## 测试一下

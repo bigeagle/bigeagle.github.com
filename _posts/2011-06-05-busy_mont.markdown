@@ -3,7 +3,6 @@ layout: post
 title: '紧张的一个月'
 date: 2011-6-5
 wordpress_id: 182
-permalink: /blogs/182
 comments: true
 ---
 未来一个月的事情感觉压力好大啊！
