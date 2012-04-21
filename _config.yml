@@ -32,7 +32,7 @@ source: source
 destination: /srv/http/octopress
 plugins: plugins
 code_dir: downloads/code
-category_dir: /category
+category_dir: category
 markdown: kramdown
 pygments: false # default python pygments have been replaced by pygments.rb
 
