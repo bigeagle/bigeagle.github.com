@@ -7,7 +7,7 @@ dq_id: '255 http://bigeagle.me/?p=255'
 permalink: /2011/10/conky_mpd_cover/
 comments: true
 ---
-{% img right /images/posts/conky.png 165 conky %}
+{% img right /images/posts/conky.png 145 conky %}
 
 昨天回到Openbox了，GNOME3.2扩展不兼容让我这个不搞定不舒服司机的人实在太难受，又不想再去学gjs，所以干脆眼不见为净了。
 
