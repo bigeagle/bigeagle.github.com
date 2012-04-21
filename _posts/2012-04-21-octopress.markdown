@@ -8,7 +8,7 @@ categories: Web
 
 如题～  迁移工作比较顺利，使用[这里](http://blog.fangjian.me/posts/2011/12/18/migrate-wordpress-to-octopress/) 提供的方法就好。
 
-Disqus评论的导出花了一些心思，因为 wordpress 的 disqus 插件默认设定的`disqus_identifier`是形如`123 http://example.org/?p=123`这样的，`123`是 wordpress 文章 id ，这样的话即使最后给每个文章的链接都一样也不能正确显示评论。
+Disqus评论的导出花了一些心思，因为wordpress的disqus插件默认设定的`disqus_identifier`是形如`123 http://example.org/?p=123`这样的，`123`是 wordpress 文章 id ，这样的话即使最后给每个文章的链接都一样也不能正确显示评论。
 
 解决的方法是修改`source/_includes/disqus.html`，把`disqus_identifier`那里改成:
 
