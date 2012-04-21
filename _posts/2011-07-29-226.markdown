@@ -33,7 +33,8 @@ cp -aR /tmp/app_temp/* /usr/share/applications
 > Inotify一种强大的、细粒度的、异步文件系统监控机制，它满足各种各样的文件监控需要，可以监控文件系统的访问属性、读写属性、权限属性、删除创建 移动等操作。
 
 也就是说，利用inotify监控/usr/share/applications目录，一旦发生变化，就想磁盘中同步数据，每次开机时从磁盘中恢复即可。生产环境中常用inotify+rsync实现实时同步，不过这种小hack要用rsync实在让我不爽，直接cp和rm得了。
-{% codeblock lang:bash %}
+
+```bash
 #!/bin/bash
 MEM_DIR="/usr/share/applications"
 HD_DIR="/var/lib/app_db"
@@ -53,14 +54,14 @@ do
 		;;
 	esac
 done
-{% endcodeblock %}
-把这段脚本存为 `sync_tmpfs.sh` ，加入 `/etc/rc.loal` 中，使之开机自动运行：
-{% codeblock lang:bash %}
-(bash /path/to/script/sync_tmpfs.sh ) &amp;
-{% endcodeblock %}
+```
+
+把这段脚本存为 `sync_tmpfs.sh` ，加入 `/etc/rc.loal` 中，使之开机自动运行:
+    
+    (bash /path/to/script/sync_tmpfs.sh ) &
+
 再修改一下fstab
-{% codeblock lang:bash %}
-tmpfs /usr/share/applications tmpfs defaults,mode=0755 0 0
-{% endcodeblock %}
+
+    tmpfs /usr/share/applications tmpfs defaults,mode=0755 0 0
 
 重启一下，大功告成~

@@ -7,15 +7,19 @@ dq_id: '255 http://bigeagle.me/?p=255'
 permalink: /2011/10/conky_mpd_cover/
 comments: true
 ---
+{% img right /images/posts/conky.png 165 conky %}
+
 昨天回到Openbox了，GNOME3.2扩展不兼容让我这个不搞定不舒服司机的人实在太难受，又不想再去学gjs，所以干脆眼不见为净了。
-{% img right /images/posts/conky.png 185 207 conky %}
 
 过去在OB下最爱折腾的东西莫过于conky，昨天除了恢复了一下过去的conky配置，就是further折腾… 看conky-colors又出新版本，的确很炫，所以也想把自己的改改，不过实际需求上，估计也就是比较想要一个音乐的CoverArt。
 
 我用的MPD，conky-colors里貌似不带mpd的cover脚本，google之，发现mpd的也<a href="http://sunjack94.deviantart.com/art/Conky-Panel-Mpd-CoverArt-154331369?moodonly=178">已经有人发明过啦</a>~
+
 不过有一点不爽，这个脚本是从albumart下载封面，对中文支持有限，所以想从豆瓣获取封面，所以参考<a href="http://www.gracecode.com/archives/3009/">这个脚本</a>做了一些更改。
+
 折腾控是不会喜欢压缩文件的，所以……直接贴代码吧
 <!--more-->
+
 cover.py：获取封面
 
 ```python
