@@ -1,0 +1,20 @@
+<hgroup>
+  <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
+  {% if site.subtitle %}
+    <h2>{{ site.subtitle }}</h2>
+  {% endif %}
+</hgroup>
+	<div class="social right">
+		{% if site.googleplus_user %}
+		<a class="google" href="https://plus.google.com/{{ site.googleplus_user }}" title="Google+">Google+</a>
+		{% endif %}
+		{% if site.twitter_user %}
+		<a class="twitter" href="http://twitter.com/{{ site.twitter_user }}" title="Twitter">Twitter</a>
+		{% endif %}
+		{% if site.github_user %}
+		<a class="github" href="https://github.com/{{ site.github_user }}" title="GitHub">GitHub</a>
+		{% endif %}
+		{% if site.subscribe_rss %}
+		<a class="rss" href="{{ site.subscribe_rss }}" title="RSS">RSS</a>
+		{% endif %}
+	</div>

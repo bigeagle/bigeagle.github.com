@@ -8,7 +8,7 @@ _deploy
 public
 sass.old
 source.old
-sass
-source
+/sass
+/source
 vendor
 node_modules
