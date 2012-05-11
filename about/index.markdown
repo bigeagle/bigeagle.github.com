@@ -3,6 +3,8 @@ layout: page
 title: "Justin Wong"
 date: 2012-05-11 17:00
 comments: true
+dq_id: http://bigeagle.me/about/
+dq_url: http://bigeagle.me/about/
 sharing: true
 footer: true
 ---
@@ -37,7 +39,7 @@ I'm a Open Source Lover, and a GNU\Linux hacker. I also love programming. Python
 ## Open Source Projects
 
 * [Kimpanel for Gnome Shell](https://github.com/bigeagle/kimpanel-for-gnome-shell)
-: Kimpnanel compatible gnome-shell extension which brings original UI for input methods including fcitx, ibus and scim.
+: Kimpanel compatible gnome-shell extension which brings original UI for input methods including fcitx, ibus and scim.
 * [xdtuxbot](https://github.com/xdlinux/xdtuxbot)
 : Yet an other twitter bot that retweets tweets about computer technolegies, and simple man-machine chat via twitter.
 * [xdba-thesis](https://github.com/xdlinux/xdba-thesis)

@@ -23,7 +23,7 @@ tags: yubikey, pam
 
 根据 `pam_yubico` 的手册，在 `/etc/pam.d/sudo` <span style="color:#7284ad">/\*这里注释一下，不同发型版PAM的配置不太一样，例如 debian 就提供了一个 `common-auth`，只要改一个就好了, arch 就要一个一个改，或者把PAM配置文件结构改成debian那样…… \*/</span>的最上面一行加入
     
-    auth        sufficient  pam_yubico.so id=16
+    auth    sufficient  pam_yubico.so id=16
 
 然后建立 `~/.yubico/authorized_yubikeys`，文件格式是
 
