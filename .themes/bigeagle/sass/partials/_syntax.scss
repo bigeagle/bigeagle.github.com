@@ -8,18 +8,17 @@
       background: lighten($base03, 1) $noise-bg !important;
       border-right: 1px solid darken($base02, 2) !important;
       @include box-shadow(lighten($base03, 2) -1px 0 inset);
-      text-shadow: lighten($base02, 2) 0 -1px;
+      //text-shadow: lighten($base02, 2) 0 -1px;
     } @else {
-      background: $base02 $noise-bg !important;
-      border-right: 1px solid darken($base03, 2) !important;
+      background: $base03 $noise-bg !important;
+      border-right: 1px solid darken($base02, 2) !important;
       @include box-shadow(lighten($base02, 2) -1px 0 inset);
-      text-shadow: darken($base02, 10) 0 -1px;
+      //text-shadow: darken($base02, 10) 0 -1px;
     }
     span { color: $base01 !important; }
     padding: .8em !important;
     @include border-radius(0);
   }
-  border: 1px solid $pre-border !important;
 }
 figure.code, .gist-file, pre {
   @include box-shadow(rgba(#000, .06) 0 0 10px);
@@ -120,11 +119,11 @@ p, li {
   span { color: $base1 !important; }
   span { font-style: normal !important; font-weight: normal !important; }
 
-  .c      { color: $base01 !important; font-style: italic !important; }                     /* Comment */
-  .cm     { color: $base01 !important; font-style: italic !important; }                     /* Comment.Multiline */
-  .cp     { color: $base01 !important; font-style: italic !important;  }                     /* Comment.Preproc */
-  .c1     { color: $base01 !important; font-style: italic !important; }                     /* Comment.Single */
-  .cs     { color: $base01 !important; font-weight: bold !important; font-style: italic !important; }   /* Comment.Special */
+  .c      { color: $solar-grey !important; font-style: italic !important; }                     /* Comment */
+  .cm     { color: $solar-grey !important; font-style: italic !important; }                     /* Comment.Multiline */
+  .cp     { color: $solar-grey !important; font-style: italic !important;  }                     /* Comment.Preproc */
+  .c1     { color: $solar-grey !important; font-style: italic !important; }                     /* Comment.Single */
+  .cs     { color: $solar-grey !important; font-weight: bold !important; font-style: italic !important; }   /* Comment.Special */
   .err    { color: $solar-red !important; background: none !important; }                                            /* Error */
   .k      { color: $solar-orange !important; }                       /* Keyword */
   .o      { color: $base1 !important; font-weight: bold !important; }                       /* Operator */
@@ -208,14 +207,29 @@ pre, .highlight, .gist-highlight {
 
 .highlight code { @extend .pre-code; background: #000;}
 figure.code {
-  background: none;
-  padding: 0;
-  border: 0;
+  background: $base03 $noise-bg !important;
+  padding:.4em;
+  border: 1px solid $pre-border !important;
+  @include border-radius(.4em);
   margin-bottom: 1.5em;
-  pre { margin-bottom: 0; }
+  pre { margin-bottom: 0; border:0;}
   figcaption {
+    font-size: 13px;
     position: relative;
-    @extend .code-title;
+    span{
+        margin: -5px -15px 0;
+        padding: 5px 15px;
+        display: block;
+        @include background(linear-gradient(top, $pre-border, $pre-bg));
+        &:empty{
+            display: none;
+        }
+    }
+    a{
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
     a { @extend .download-source; }
   }
   .highlight {

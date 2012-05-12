@@ -68,6 +68,7 @@ aside.sidebar {
     &:hover {
       background: mix($sidebar-border, $sidebar-bg);
       @include background(linear-gradient(left, rgba($sidebar-border, .5), rgba($sidebar-border, 0)));
+      @include border-top-right-radius(.4em);
     }
     &:after {
       position: absolute; right: -11px; top: 0;
