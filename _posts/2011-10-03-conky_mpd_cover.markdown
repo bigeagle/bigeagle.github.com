@@ -6,6 +6,7 @@ wordpress_id: 255
 dq_id: '255 http://bigeagle.me/?p=255'
 permalink: /2011/10/conky_mpd_cover/
 comments: true
+categories: linux  desktop
 ---
 {% img right /images/posts/conky.png 145 conky %}
 

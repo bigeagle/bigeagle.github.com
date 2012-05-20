@@ -4,6 +4,7 @@ title: '多头多尾的Linux'
 date: 2011-4-4
 wordpress_id: 133
 comments: true
+categories: linux  tips
 ---
 人们常把一台主机(Host)比喻成一个人的身体，主体称为 <strong>身体</strong> (<em>Body</em>)，交互输出设备称为 <strong>头</strong>( <em>Head</em>) ，交互输入设备称为 <strong>尾</strong>(<em>Tail</em>) 。在大多数情况下，一个主机的“身体”总是完整的，但“头”与“尾”却多有变化，常见的，有这样一些变化：
 <ul>

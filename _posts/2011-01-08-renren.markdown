@@ -4,6 +4,7 @@ title: '我的人人网敏感词'
 date: 2011-1-8
 wordpress_id: 95
 comments: true
+categories: toys
 ---
 
 人人网改造器有屏蔽带关键字的新鲜事功能，心想要是能支持正则表达就好了。

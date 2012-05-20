@@ -4,6 +4,7 @@ title: 'iPhone使用OpenVPN'
 date: 2011-2-2
 wordpress_id: 113
 comments: true
+categories: network  vpn
 ---
 目田的互联网一直是我的梦想，之前在iPhone上一直使用WFGinterceptor（为保护小站，那三个字母是倒序的），但是不能存cookie是一个问题，而且它依赖于GAE，一个在前途未卜的网络。想来还是VPN或者SSH比较靠谱。
 
