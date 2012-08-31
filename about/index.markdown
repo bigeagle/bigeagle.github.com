@@ -10,15 +10,15 @@ footer: true
 ---
 {% img right /images/me3.jpeg %}
 Ph.D. candidate <br />
-[NICS, Dept. of Electronic Engneering](http://nics.ee.tsinghua.edu.cn/newpages/index.html)<br />
+[NICS Lab, Dept. of Electronic Engneering](http://nics.ee.tsinghua.edu.cn/newpages/index.html)<br />
 Tsinghua University <br />
-Beijing, China, 100084 <br />
-Email: justin.w.xd(at)gmail(dot)com <br />
+Beijing, P.R. China, 100084 <br />
+Email: <span style="display:inline-block;width:224px;height:26px;background-image:url(/images/myemail.png);margin-bottom:-6px;"></span> <br />
 
 ## General Info.
 I am currently a first year Ph.D. candidate of Tsinghua University(THU), under supervision of Prof. [Huazhong Yang](http://www.tsinghua.edu.cn/publish/eeen/3784/2010/20101219112947324534327/20101219112947324534327_.html).
 
-My research intrests include _Wireless Sensor Networks_, _Data Mining_,  _Operating Systems_. I'm currently doing research on _Middleware of WSNs_ for fast and flexible deployment. 
+My research interests include _Wireless Sensor Networks_, _Data Mining_,  _Operating Systems_. I'm currently doing research on _Middleware of WSNs_ for fast and flexible deployment. 
 
 I'm a Open Source Lover, and a GNU\Linux hacker. I also love programming. Python and C are the programming languages I mainly use.
 

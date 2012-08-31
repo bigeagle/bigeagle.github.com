@@ -7,10 +7,12 @@ categories:
 ---
 最近物欲膨胀啊，好多东西好像要……
 
-* Galaxy Nexus
+* <del>Galaxy Nexus</del>
+* <del>Nexux 7</del> Galaxy Note 10.1
 * Thinkpad X230
+* SSD
 * 给母上买个MBA
 * 电吉他，音箱，效果器
 * 电鼓
 
-我要努力工作……
+我要努力工作……<span style="color:#e02c2c">7月份工资泡汤了擦擦擦</span>
