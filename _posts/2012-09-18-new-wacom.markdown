@@ -3,7 +3,7 @@ layout: post
 title: "入手Wacom Bamboo CTL470"
 date: 2012-09-18 18:17
 comments: true
-categories: life
+categories: life linux tips
 ---
 
 前两天画瘾大发，于是一冲动就入了个Wacom Bamboo CTL470，为什么选这个？ -- 因为 *便宜*! 550软妹币搞定。

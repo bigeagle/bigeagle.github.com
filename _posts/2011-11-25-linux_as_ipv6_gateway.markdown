@@ -6,7 +6,7 @@ wordpress_id: 295
 dq_id: '295 http://bigeagle.me/?p=295'
 permalink: /2011/11/linux_as_ipv6_gateway/
 comments: true
-catigories: linux
+catigories: linux network
 ---
 IPv6作为下一代互联网的核心技术，拥有众多新特性和优势，不仅解决了IPv4网络地址T 量不够的问题，还一并解决了很多其他问题。
 本文将集中讨论在西电校园网环境下，将Linux PC作为IPv6网关，让局域网可以正常接入IPv6网络的解决方案。

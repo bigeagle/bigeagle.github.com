@@ -4,7 +4,7 @@ title: "入手yubikey,一点小心得"
 date: 2012-05-10 20:15
 comments: true
 categories: linux
-tags: yubikey, pam
+tags: yubikey pam tips linux
 ---
 
 昨天从 [@yeagle](http://yegle.net/2010/08/29/yubikey-the-cheap-otp-resolution/) 那里买的 yubikey 终于到货，如果不知道 yubikey 是什么就看看 @yeagle 的广告好了，呵呵。

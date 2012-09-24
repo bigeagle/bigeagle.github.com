@@ -4,6 +4,7 @@ title: 'Linux的中文名称怎么翻译呢？'
 date: 2011-2-5
 wordpress_id: 130
 comments: true
+categories: linux
 ---
 今天看到袁萌的博文，里面提到Linux在中国推广过程中遇到的一个现实问题：Linux的中文名是什么？
 ## 你牛叉！

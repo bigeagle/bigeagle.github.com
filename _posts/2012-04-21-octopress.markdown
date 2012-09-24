@@ -3,7 +3,7 @@ layout: post
 title: "迁移到Octopress"
 date: 2012-04-15 04:00
 comments: true
-categories: Web
+categories: web
 ---
 
 如题～  迁移工作比较顺利，使用[这里](http://blog.fangjian.me/posts/2011/12/18/migrate-wordpress-to-octopress/) 提供的方法就好。

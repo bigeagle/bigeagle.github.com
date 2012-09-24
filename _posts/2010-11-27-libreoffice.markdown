@@ -4,6 +4,7 @@ title: 'Libreoffice'
 date: 2010-11-27
 wordpress_id: 38
 comments: true
+category: linux desktop
 ---
 {% img left /images/posts/libreoffice.png 300 %}
 

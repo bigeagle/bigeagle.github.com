@@ -6,6 +6,7 @@ wordpress_id: 226
 dq_id: '226 http://bigeagle.me/?p=226'
 permalink: /2011/07/gnome_shell_app
 comments: true
+categories: linux desktop tips
 ---
 gnome-shell的overview模式着实是个尤物，动态工作区和任务管理丝毫不输于Lion的Mission Control，而Applications与Lion的LaunchPad也是异曲同工。
 

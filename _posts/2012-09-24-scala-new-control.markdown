@@ -3,7 +3,7 @@ layout: post
 title: "Scala 自定义控制结构"
 date: 2012-09-24 16:44
 comments: true
-categories: scala, programming
+categories: scala  programming
 ---
 写了两年Python了想换换口味，正好在coursera上参加[Functional Programming Principles in Scala](http://daily-scala.blogspot.com/)课程，考虑到[Scala](http://en.wikipedia.org/wiki/Scala_(programming_language))那一大票很诱人的特性就学Scala吧～ <span style="color:#5989e0">//golang 我对不起你... ...</span>
 

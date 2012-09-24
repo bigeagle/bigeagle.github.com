@@ -5,6 +5,7 @@ date: 2010-11-26
 wordpress_id: 16
 permalink: /2010/11/python-gnuplo
 comments: true
+categories: python  programming
 ---
 最近和lvzongting一块儿做一些仿真，不想用matlab了，原因有：
 

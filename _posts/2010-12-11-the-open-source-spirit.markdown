@@ -4,6 +4,7 @@ title: 'The Open Source Spirit'
 date: 2010-12-11
 wordpress_id: 47
 comments: true
+categories: life
 ---
 {% img right /images/posts/xdosc3.png 300 %}
 

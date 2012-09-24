@@ -4,7 +4,7 @@ title: 'twitter键盘控：Twittperator'
 date: 2010-12-18
 wordpress_id: 69
 comments: true
-categories: toys
+categories: toys desktop
 ---
 最近Chrome很火，尤其是Chrome OS和Web Strore发布之后，连BigEagle这个忠实的Firefoxer都一个星期没有开Firefox。Chrome的确很漂亮，很快，很简洁，各种功能也都很齐全，插件质量也越来越高。但是BigEagle心中，Firefox仍然排在第一位，除了必不可少的Autoproxy之外，Vimperator也是重要原因。虽然chrome下vimium也能实现vim快捷键，但是功能比vimp相去甚远。
 

@@ -6,7 +6,7 @@ wordpress_id: 243
 dq_id: '243 http://bigeagle.me/?p=243'
 permalink: /2011/08/pulseaudio-tcp/
 comments: true
-categories: linux  pulseaudio
+categories: linux  pulseaudio tips
 ---
 最近在实验室，同时用着自己的笔记本和实验室分配的台式机，双机工作的确很爽，计算能力基本没有障碍了。
 
