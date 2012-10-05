@@ -147,7 +147,12 @@ aside.sidebar{
     @include border-top-right-radius(.4em);
 }
 
-
+aside span.twitter-friend {
+    font-family: serif;
+    font-size: 10px;
+    font-style: italic;
+    margin-left: 10px;
+}
 /* ----- Footer ----- */
 
 
